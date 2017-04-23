@@ -1,0 +1,12 @@
+{
+  "host": "localhost",
+  "port": 8080,
+  "nvmHost": "localhost",
+  "nvmPort": 8080,
+  "mailFrom": "localhost",
+  "clientHost": "localhost",
+  "clientUrl": "http://localhost:3000",
+  "remoting": {
+    "handleErrors": false
+  }
+}

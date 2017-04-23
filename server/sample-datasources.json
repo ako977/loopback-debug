@@ -1,0 +1,27 @@
+{
+  "sample": {
+    "name": "sample",
+    "host": "localhost",
+    "port": 5432,
+    "url": "",
+    "database": "",
+    "user": "",
+    "password": "",
+    "connector": "postgresql"
+  },
+
+  "sampleDefaultMail": {
+    "name": "defaultMail",
+    "connector": "mail",
+    "transports": [ {
+      "type": "SMTP",
+      "host": "localhost",
+      "secureConnection": true,
+      "port": 465,
+      "auth": {
+        "user": "",
+        "pass": ""
+      }
+    }]
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "db1": {
+        "name": "db1",
+        "connector": "memory"
+    },
+    "defaultMail": {
+        "name": "defaultMail",
+        "connector": "mail",
+        "transports": [
+            {
+                "type": "SMTP",
+                "host": "",
+                "secure": true,
+                "port": 465,
+                "auth": {
+                    "user": "",
+                    "pass": ""
+                }
+            }
+        ]
+    }
+}
